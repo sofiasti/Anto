@@ -1,0 +1,232 @@
+html
+    {
+        background-image: url(Guardaeditada.jpg);
+        ackground-repeat: repeat-x;
+        overflow-Y: scroll;
+    }
+
+body
+    {
+        font-family:'Georgia', sans-serif;
+    }
+
+.wrap
+    {
+        margin-right:100px;
+        margin-left:100px;
+        background-color:#550000;
+        box-shadow: 10px 5px 5px black;
+
+    }
+
+.head
+    {
+        height:220px;
+        background-color:#000000;
+    }
+
+    #Banner
+    {
+        text-align:center;
+    }
+
+nav
+    {
+       text-align: center;
+    }
+
+nav ul
+    {
+        display:table;
+        position:relative;
+        margin:0 auto;
+        margin-top:10px;
+        font-size:12px;
+        text-transform: uppercase;
+        height: 35px;
+        float:righ;
+    }
+nav ul li
+    {
+        float:right;
+
+    }
+nav ul li a
+    {
+        padding:0px 50px;
+        color:#FFFFFF;
+        text-decoration:none;
+        font-
+    }
+.socialmedia
+    {
+        float:left;
+        margin-left:70px;
+        margin-top:60px;
+        background-color: #000000;
+        border-style:solid;
+        border-color:#FFFFFF;
+        text-align:center;
+        padding:10px;
+    }
+.socialmedia p
+    {
+        font-size:14px;
+        color: #FFFFFF;
+        margin-left:10px;
+    }
+.socialmedia a
+    {
+        margin-left:10px;
+    }
+
+* {box-sizing:border-box}
+
+
+.mySlides {
+  display: none;
+  text-align: center;
+}
+
+.mySlides, .fade
+{
+
+}
+
+.botones
+    {
+        margin-left:700px;
+    }
+
+.prev, .next {
+  cursor: pointer;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  text-align: center;
+}
+
+.next {
+  right: 1;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.puntos 
+{
+    margin-left:713px;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+footer
+    {
+        background-color: #000000;
+        color: #FFFFFF;
+        height: 100px;
+    }
+footer p
+    {
+       font-size:8px;
+    }
+.carta
+{
+    text-align:center;
+}
+
+.tituloapps p
+{
+    color:#FFFFFF;
+    font-size:18px;
+    text-transform: uppercase;
+    text-align:center;
+}
+.apps 
+{
+    text-align:center;
+    color:#FFFFFF;
+    text-transform: uppercase;
+
+
+}
+
+.glovo
+{
+float:left;
+margin-left:100px;
+}
+.uber 
+{
+    float:left;
+    margin-left:200px;
+}
+.justeat
+{
+    float:right;
+    margin-right:100px;
+}
+
+.espacio1
+{
+    height:270px;
+}
+.borde
+{
+    padding:1em;
+    text-align:bottom;
+    line-height: 30%;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+
+

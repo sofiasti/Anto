@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Página de Inicio|Grill 97</title>
+		<link id="theme" rel="stylesheet" type="text/css" href="Anto.css" title="theme">
+	</head>
+	<body>
+   	 <div id="wrapper"> 
+     	 <div id="bg"> 
+       	 	<div id="page"> 
+         		<div id="container"> 
+					<!--El banner-->
+					<div id="banner"></div>
+					<!--Barra de tareas-->
+					<nav>
+						<ul>
+							<li id="inicio1.0" style="border:none">
+								<a href="#" shape="rect">Inicio</a>
+							</li>
+							<li id="reservas1.0" style="border:none">
+								<a href="#" shape="rect">Reservas</a>
+							</li>
+							<li id="carta1.0" style="border:none">
+								<a href="#" shape="rect">Carta</a>
+							</li>
+							<li id="pide1.0" style="border:none">
+								<a href="#" shape="rect">A domicilio</a>
+							</li>
+							<li id="llegar1.0" style="border:none">
+								<a href="#" shape="rect">Como llegar</a>
+							</li>
+						</ul>
+					</nav><br/>
+					<br/>
+					<!--Cuerpo de página-->
+					<div class="cuerpo">
+						<div id="encabezado"></div>
+						<div id="titulo">					
+							<h2>Síguenos en redes sociales</h2>
+							<h2>y enterate de las novedades y promociones</h2>
+							<div id="redes">
+								<div id="instagram">
+								<!--Instagram-->
+								<a href="Instagram.png"><img src="instagram3.png" width="100" height="100"></a></div>
+								<br/>
+								<div id="facebook">
+								<!--Facebook-->
+								<a href=""><img src="facebook.png" width="100" height="100"></a></div>
+							</div>
+						</div>
+							<!--Imagenes varias-->
+							 <!-- Slideshow container -->
+							<div id="fotos">
+							<div class="slideshow-container">
+
+				  			<!-- Full-width images with number and caption text -->
+				  				<div class="mySlides fade">
+				   				 <div class="numbertext"></div>
+				    			<img src="prueba1.jpg" style="width:100%">
+				    			
+				 	   		 </div>
+
+				 			 <div class="mySlides fade">
+				    			<div class="numbertext"></div>
+				   				 <img src="prueba3.jpg" style="width:100%">
+				    				
+				 			 </div>
+
+				 		 	<div class="mySlides fade">
+				  				  <div class="numbertext"></div>
+				   					 <img src="prueba4.jpg" style="width:100%">
+				   						 
+				 			 </div>
+
+				  			<!-- Next and previous buttons -->
+				 			 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				 			 <a class="next" onclick="plusSlides(1)">&#10095;</a>
+							</div>
+							<br>
+
+							<!-- The dots/circles -->
+							<div style="text-align:center">
+				  			<span class="dot" onclick="currentSlide(1)"></span>
+				  			<span class="dot" onclick="currentSlide(2)"></span>
+				  			<span class="dot" onclick="currentSlide(3)"></span>
+							</div> 
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			let slideIndex = 1;
+	showSlides(slideIndex);
+
+	// Next/previous controls
+	function plusSlides(n) {
+	  showSlides(slideIndex += n);
+	}
+
+	// Thumbnail image controls
+	function currentSlide(n) {
+	  showSlides(slideIndex = n);
+	}
+
+	function showSlides(n) {
+	  let i;
+	  let slides = document.getElementsByClassName("mySlides");
+	  let dots = document.getElementsByClassName("dot");
+	  if (n > slides.length) {slideIndex = 1}
+	  if (n < 1) {slideIndex = slides.length}
+	  for (i = 0; i < slides.length; i++) {
+	    slides[i].style.display = "none";
+	  }
+	  for (i = 0; i < dots.length; i++) {
+	    dots[i].className = dots[i].className.replace(" active", "");
+	  }
+	  slides[slideIndex-1].style.display = "block";
+	  dots[slideIndex-1].className += " active";
+	} 
+	</script>
+
+	</body>
+</html>
